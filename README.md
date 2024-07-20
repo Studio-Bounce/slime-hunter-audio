@@ -15,7 +15,7 @@ Clone the Repository:
 
 2. Run a build with either `F7` or `File > Build`.
 
-3. Copy the contents of `/Build` and dump it into `slime-hunter/Assets/Game/Audio/FMOD/Build/`.
+3. Copy the contents of `/Build/` and dump it into `slime-hunter/Assets/Game/Audio/FMOD/Build/`.
 
   > Alternatively you can set your build location to automatically build to the correct directory by heading to `Edit > Preferences > Build > Built banks output directory`
 
