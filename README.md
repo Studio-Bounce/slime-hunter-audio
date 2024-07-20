@@ -1,9 +1,7 @@
 # slime-hunter-audio
 The audio for Slime Hunter.
 
-## Getting Started
-
-### Installation
+## Installation
 
 Clone the Repository:
 
