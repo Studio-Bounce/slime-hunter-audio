@@ -1,6 +1,16 @@
 # slime-hunter-audio
 The audio for Slime Hunter.
 
+## Getting Started
+
+### Installation
+
+Clone the Repository:
+
+   ```bash
+   git clone https://github.com/Studio-Bounce/slime-hunter.git
+   ```
+
 ## Making Audio Changes to Slime Hunter
 
 1. In [FMOD Studio](https://www.fmod.com/download#fmodstudio) open your `.fspro` project. 
