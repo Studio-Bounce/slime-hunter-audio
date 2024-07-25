@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{d1580e30-d556-4444-95f5-8a004563c4b1}">
+		<property name="name">
+			<value>MiniBoss</value>
+		</property>
+		<relationship name="folder">
+			<destination>{adf5451f-2908-41cf-9712-2aee07a2d88c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e3866e7a-31ef-4731-a300-7ff9d20b78d6}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e3866e7a-31ef-4731-a300-7ff9d20b78d6}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="velocity">
+			<value>12</value>
+		</property>
+	</object>
+</objects>
