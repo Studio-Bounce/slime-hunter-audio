@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{721a1a94-9091-4c89-a9c6-5b15a956bf9b}">
 		<property name="assetPath">
-			<value>EXP_Woodwinds.wav</value>
+			<value>Explore+Combat/EXP_Woodwinds.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

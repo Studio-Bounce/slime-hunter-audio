@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{691ee689-9a01-4b03-b2e7-0f9ee9110a6f}">
 		<property name="assetPath">
-			<value>COM_start_click.wav</value>
+			<value>Explore+Combat/COM_start_click.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

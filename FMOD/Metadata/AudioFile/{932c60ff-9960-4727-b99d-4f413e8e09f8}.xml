@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{932c60ff-9960-4727-b99d-4f413e8e09f8}">
 		<property name="assetPath">
-			<value>COM_MB_ShortStrings.wav</value>
+			<value>Miniboss/COM_MB_ShortStrings.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

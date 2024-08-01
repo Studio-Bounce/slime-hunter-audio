@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{6d4cf46d-46bd-4d73-bb4f-b3120cf74088}">
 		<property name="assetPath">
-			<value>EXP_Keys.wav</value>
+			<value>Explore+Combat/EXP_Keys.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

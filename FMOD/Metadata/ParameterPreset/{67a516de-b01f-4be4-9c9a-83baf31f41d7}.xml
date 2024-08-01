@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{67a516de-b01f-4be4-9c9a-83baf31f41d7}">
+		<property name="name">
+			<value>VillagePhase</value>
+		</property>
+		<relationship name="folder">
+			<destination>{adf5451f-2908-41cf-9712-2aee07a2d88c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{89572777-b80d-453d-835b-78653b015877}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{89572777-b80d-453d-835b-78653b015877}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>

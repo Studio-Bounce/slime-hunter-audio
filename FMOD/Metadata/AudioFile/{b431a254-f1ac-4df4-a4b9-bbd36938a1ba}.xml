@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{b431a254-f1ac-4df4-a4b9-bbd36938a1ba}">
 		<property name="assetPath">
-			<value>COM_Bass.wav</value>
+			<value>Explore+Combat/COM_Bass.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

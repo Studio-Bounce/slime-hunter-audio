@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{40b2bae0-beb8-46e6-bd4e-2ed43c8f6cbb}">
 		<property name="assetPath">
-			<value>COM_MB_END_LongStrings.wav</value>
+			<value>Miniboss/COM_MB_END_LongStrings.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
