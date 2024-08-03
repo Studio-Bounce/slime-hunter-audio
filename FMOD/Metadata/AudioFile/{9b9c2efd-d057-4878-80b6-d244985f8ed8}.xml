@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{9b9c2efd-d057-4878-80b6-d244985f8ed8}">
 		<property name="assetPath">
-			<value>village 3 - cello section 2 - 4:4 85bpm.wav</value>
+			<value>village 3 - cello section 2 - 4.4 85bpm.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
