@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{dcc6881a-c7c8-4e12-968e-d6e9bab919c0}">
 		<property name="name">
-			<value>In Combat</value>
+			<value>CombatIntensity</value>
 		</property>
 		<relationship name="folder">
 			<destination>{adf5451f-2908-41cf-9712-2aee07a2d88c}</destination>
