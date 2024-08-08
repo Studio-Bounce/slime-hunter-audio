@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{164b0061-5b16-48cf-9af6-460a99821964}">
+		<property name="assetPath">
+			<value>SFX/Fantasy Monsters/Riverbeast_2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.3147845804988663</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4de900a7-78ed-47fa-bce2-5636f833a1a1}</destination>
+		</relationship>
+	</object>
+</objects>
