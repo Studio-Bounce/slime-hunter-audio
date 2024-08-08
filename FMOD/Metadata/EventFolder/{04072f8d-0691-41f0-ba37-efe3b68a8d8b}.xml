@@ -5,7 +5,7 @@
 			<value>Collectibles</value>
 		</property>
 		<relationship name="folder">
-			<destination>{eccb1d21-17df-4562-9a76-45fc7703427e}</destination>
+			<destination>{a48b6943-02df-49c1-826a-56157dffa8b9}</destination>
 		</relationship>
 	</object>
 </objects>
