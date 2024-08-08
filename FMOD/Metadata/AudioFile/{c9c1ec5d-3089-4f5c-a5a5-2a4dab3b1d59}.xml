@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c9c1ec5d-3089-4f5c-a5a5-2a4dab3b1d59}">
+		<property name="assetPath">
+			<value>SFX/Fantasy Vol.2/Fantasy UI Vol (39).wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.3852607709750568</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4de900a7-78ed-47fa-bce2-5636f833a1a1}</destination>
+		</relationship>
+	</object>
+</objects>

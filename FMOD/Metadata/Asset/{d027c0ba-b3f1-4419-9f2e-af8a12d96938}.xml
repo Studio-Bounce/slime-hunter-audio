@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{d027c0ba-b3f1-4419-9f2e-af8a12d96938}">
+		<property name="assetPath">
+			<value>SFX/Fantasy Vol.2/Twilight UI/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{4de900a7-78ed-47fa-bce2-5636f833a1a1}</destination>
+		</relationship>
+	</object>
+</objects>
