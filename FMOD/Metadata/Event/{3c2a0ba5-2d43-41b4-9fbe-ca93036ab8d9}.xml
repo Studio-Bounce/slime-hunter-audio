@@ -5,7 +5,7 @@
 			<value>SlimeNoise</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{fa17a074-a4d9-469c-a5f5-1a181a406131}</destination>
@@ -30,6 +30,9 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{f25934d0-fdc5-4cd5-8bb4-ae8b5d3c298f}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{22c705bb-733f-41d4-9409-2336567cda76}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{e3f68181-3d3b-4d86-a118-ef10f8dfd49c}">
@@ -93,6 +96,7 @@
 	<object class="MixerBusEffectChain" id="{6ec39e38-fb9a-401c-a919-c0c5b0587bd6}">
 		<relationship name="effects">
 			<destination>{1b20710e-8001-4896-b0d5-493f23698736}</destination>
+			<destination>{882c9dfb-7bea-4996-bf3b-eab1965a8714}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{65ca746f-de2e-4171-afd5-dae626cb0427}" />
@@ -105,6 +109,7 @@
 	</object>
 	<object class="MixerBusFader" id="{7f041bc7-47f8-4a2f-b8e0-cede4b35b973}" />
 	<object class="MixerBusFader" id="{1b20710e-8001-4896-b0d5-493f23698736}" />
+	<object class="SpatialiserEffect" id="{882c9dfb-7bea-4996-bf3b-eab1965a8714}" />
 	<object class="SingleSound" id="{1da78bae-6d3b-493c-900c-9f9a96bd716f}">
 		<relationship name="audioFile">
 			<destination>{f4b780f2-218b-460d-8f91-2f2e68d21e60}</destination>

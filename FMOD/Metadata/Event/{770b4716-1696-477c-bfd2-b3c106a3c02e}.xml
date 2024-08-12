@@ -5,7 +5,7 @@
 			<value>DashSlime</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{fa17a074-a4d9-469c-a5f5-1a181a406131}</destination>
@@ -33,6 +33,9 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{7df38579-9c27-45f3-8b96-4f2f6bf8e8a4}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{22c705bb-733f-41d4-9409-2336567cda76}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{b23415c7-a083-4771-9b15-4a68663e19f0}">
@@ -115,6 +118,7 @@
 	<object class="MixerBusEffectChain" id="{f94e59c9-f171-4594-a930-135e8452151e}">
 		<relationship name="effects">
 			<destination>{dc7de459-99ae-4259-b9d5-faa62c7dbb71}</destination>
+			<destination>{e176f147-84d9-47d7-ac0d-faa5affb3ee7}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f4c42e52-9aa7-4b4c-acef-e51b29f41f3b}" />
@@ -131,5 +135,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{79ea196a-29cd-4fdc-b1f3-a0572bea2a66}" />
 	<object class="MixerBusFader" id="{dc7de459-99ae-4259-b9d5-faa62c7dbb71}" />
+	<object class="SpatialiserEffect" id="{e176f147-84d9-47d7-ac0d-faa5affb3ee7}" />
 	<object class="MixerBusFader" id="{d2fc51c1-0f44-4edb-978f-f1217ca9e8f8}" />
 </objects>

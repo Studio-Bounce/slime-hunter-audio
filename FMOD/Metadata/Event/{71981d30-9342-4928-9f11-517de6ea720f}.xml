@@ -5,7 +5,7 @@
 			<value>ChestOpenJingle</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{04072f8d-0691-41f0-ba37-efe3b68a8d8b}</destination>
@@ -84,7 +84,7 @@
 	</object>
 	<object class="MultiSound" id="{ebf1ddd5-18af-4d92-8d90-45f5110d860c}">
 		<relationship name="sounds">
-			<destination>{fedde73f-0fd8-4b50-a80a-90f25e0ac3d8}</destination>
+			<destination>{7f7c7e76-61a8-4f56-a5f4-20ad45f838ae}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{2165d5cb-1101-48bd-b366-59ebbbab3e71}">
@@ -96,14 +96,16 @@
 	<object class="MixerBusEffectChain" id="{ce0c15dd-9950-4dc3-a12f-73cfac32c195}">
 		<relationship name="effects">
 			<destination>{02b78f73-f16b-4fad-91a7-dbc5bb73ecc7}</destination>
+			<destination>{4d212836-b8d9-42b4-961f-df3749dc0bc9}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{973f0942-8bbd-4ce7-9358-73b485c46d1a}" />
-	<object class="SingleSound" id="{fedde73f-0fd8-4b50-a80a-90f25e0ac3d8}">
+	<object class="SingleSound" id="{7f7c7e76-61a8-4f56-a5f4-20ad45f838ae}">
 		<relationship name="audioFile">
-			<destination>{a63ebe48-083a-4e11-9378-408a38f19b31}</destination>
+			<destination>{960cee38-a761-4920-9e23-c41b1b3dc75d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{7b14b2a5-bea8-4964-add3-92b5e4642065}" />
 	<object class="MixerBusFader" id="{02b78f73-f16b-4fad-91a7-dbc5bb73ecc7}" />
+	<object class="SpatialiserEffect" id="{4d212836-b8d9-42b4-961f-df3749dc0bc9}" />
 </objects>

@@ -5,7 +5,7 @@
 			<value>BomberSlimeExplode</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{fa17a074-a4d9-469c-a5f5-1a181a406131}</destination>
@@ -33,6 +33,9 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{f83c92c0-5c02-4cb5-9aa4-1b9934162146}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{22c705bb-733f-41d4-9409-2336567cda76}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{b8238d54-fc80-4161-83f3-a3a6522c1f68}">
@@ -115,6 +118,7 @@
 	<object class="MixerBusEffectChain" id="{280acde9-c095-4e87-9652-1e591ea93843}">
 		<relationship name="effects">
 			<destination>{213df375-2fd3-44d4-90b8-776bdbd61f23}</destination>
+			<destination>{a21925b9-d59f-4d7a-90f8-5e029e2d05a2}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b6f5d0a5-d447-48b1-98f4-7c28db7e1239}" />
@@ -131,5 +135,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{e64ff0a6-0eb1-46a7-80ef-4bdd584afa1c}" />
 	<object class="MixerBusFader" id="{213df375-2fd3-44d4-90b8-776bdbd61f23}" />
+	<object class="SpatialiserEffect" id="{a21925b9-d59f-4d7a-90f8-5e029e2d05a2}" />
 	<object class="MixerBusFader" id="{1e464855-8936-495b-af8b-d2c6df2bd955}" />
 </objects>
