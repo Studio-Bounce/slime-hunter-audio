@@ -5,7 +5,7 @@
 			<value>SpitterSlimeAttack</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{fa17a074-a4d9-469c-a5f5-1a181a406131}</destination>
@@ -127,6 +127,7 @@
 			<destination>{0ee8d526-2b47-484c-a888-6defb48f5fcb}</destination>
 			<destination>{b162c4db-452f-4e2f-b8f0-ca58c3e3c463}</destination>
 			<destination>{573caea3-9c74-438c-a0dc-2bbb15382826}</destination>
+			<destination>{1ade6dba-eb7a-4222-8971-fd2362d7b84a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{13479ec1-e506-45e6-ad36-edf9a0db6b7c}" />
@@ -155,6 +156,7 @@
 			<value>-9</value>
 		</property>
 	</object>
+	<object class="SpatialiserEffect" id="{1ade6dba-eb7a-4222-8971-fd2362d7b84a}" />
 	<object class="MixerBusFader" id="{232f6dbf-a2f1-40e4-8f12-5527961c0c67}" />
 	<object class="ThreeEQEffect" id="{64cc1e79-b7e7-4d08-9d5d-be2bad1ff1df}">
 		<property name="lowGain">

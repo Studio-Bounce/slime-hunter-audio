@@ -5,7 +5,7 @@
 			<value>SpitterSlimeMovement</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{fa17a074-a4d9-469c-a5f5-1a181a406131}</destination>
@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{c1c9b53b-6fe6-4333-bed4-1c9f58518dc9}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{ca3da6e3-6e5a-47eb-b8c3-03169085de13}</destination>
 		</relationship>
@@ -98,6 +101,7 @@
 			<destination>{83ec8c0b-8250-411b-bd7c-7d6a32dc3606}</destination>
 			<destination>{c635d641-06e2-4c5b-b16e-61f2562bb791}</destination>
 			<destination>{e786806b-cc85-4032-a92e-d6efde3ab6e7}</destination>
+			<destination>{6dd3996b-47c3-4343-9162-93eed5c8db5b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6b1c2189-b744-4e0c-ba4c-3ef06f47f9e5}" />
@@ -133,6 +137,7 @@
 			<value>6.80000019</value>
 		</property>
 	</object>
+	<object class="SpatialiserEffect" id="{6dd3996b-47c3-4343-9162-93eed5c8db5b}" />
 	<object class="SingleSound" id="{7a6053fd-904a-4df3-a90e-a919a33bdade}">
 		<relationship name="audioFile">
 			<destination>{5aedeeab-89f7-4a94-83ee-536471d17fe0}</destination>
