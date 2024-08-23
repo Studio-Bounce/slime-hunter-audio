@@ -125,6 +125,7 @@
 			<destination>{322eaebc-12bc-49d0-a5c8-a324dd2dedfe}</destination>
 			<destination>{3bb3c051-b6f6-4f55-8e30-8d5fc4cae71c}</destination>
 			<destination>{200ecc28-f6b3-46d7-9542-c8d4875797a7}</destination>
+			<destination>{860ee094-e513-4ce0-8017-493192478887}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{37dd88e1-10a2-453f-b373-04e3daf34192}" />
@@ -145,6 +146,14 @@
 		<relationship name="automators">
 			<destination>{dee0a684-5e79-4235-aed9-433aabf9bffa}</destination>
 		</relationship>
+	</object>
+	<object class="CompressorEffect" id="{860ee094-e513-4ce0-8017-493192478887}">
+		<property name="threshold">
+			<value>-15</value>
+		</property>
+		<property name="gain">
+			<value>-10</value>
+		</property>
 	</object>
 	<object class="Automator" id="{dee0a684-5e79-4235-aed9-433aabf9bffa}">
 		<property name="nameOfPropertyBeingAutomated">
