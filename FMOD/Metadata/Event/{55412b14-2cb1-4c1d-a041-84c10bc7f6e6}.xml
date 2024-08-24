@@ -53,6 +53,7 @@
 		<relationship name="parameters">
 			<destination>{eb1f02ad-9d77-4ccf-a331-0ffaa95264dd}</destination>
 			<destination>{c8c8cda5-53f9-4c20-9854-a1c033cda5dd}</destination>
+			<destination>{5ca363ea-793f-4e1d-aa96-6cdb6d6f26d2}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{22c705bb-733f-41d4-9409-2336567cda76}</destination>
@@ -273,6 +274,11 @@
 			<destination>{20b9400a-056e-4b6a-bc2b-aeb3021dd756}</destination>
 		</relationship>
 	</object>
+	<object class="ParameterProxy" id="{5ca363ea-793f-4e1d-aa96-6cdb6d6f26d2}">
+		<relationship name="preset">
+			<destination>{a0f6ca83-d8e8-4dd6-8301-9e4cb685a202}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{a483dab8-1ae7-4acc-baf8-9fc5588ecd91}">
 		<relationship name="automators">
 			<destination>{8ed7b37f-cfd3-411f-976d-c52030f45bb5}</destination>
@@ -300,7 +306,7 @@
 	<object class="MixerBusPanner" id="{19d25b8f-8f9f-4e5c-a4af-a4e757a2d782}" />
 	<object class="SingleSound" id="{25dc3545-a03a-459a-a69f-d4420fa2f202}">
 		<property name="length">
-			<value>26.666666666666668</value>
+			<value>22</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{c9b78c09-8faf-456f-a656-874768102f81}</destination>
@@ -322,7 +328,7 @@
 	</object>
 	<object class="SingleSound" id="{4ba0095d-fee1-4b61-95c6-7b08e3599b2c}">
 		<property name="length">
-			<value>26.666666666666668</value>
+			<value>22</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{d5eff2d6-b34b-45d7-a784-ad0e25698d0c}</destination>
@@ -344,7 +350,7 @@
 	</object>
 	<object class="SingleSound" id="{b186cd9d-39dd-4888-bc7f-49c7fc74d02d}">
 		<property name="length">
-			<value>26.666666666666668</value>
+			<value>22</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{ae50cee0-89ba-4c15-a415-be919c4a4edb}</destination>
@@ -374,7 +380,7 @@
 			<value>Green</value>
 		</property>
 		<property name="start">
-			<value>28.888888888888889</value>
+			<value>22</value>
 		</property>
 		<property name="length">
 			<value>71.107062499999998</value>
@@ -410,7 +416,7 @@
 			<value>Green</value>
 		</property>
 		<property name="start">
-			<value>28.888888888888889</value>
+			<value>22</value>
 		</property>
 		<property name="length">
 			<value>71.111104166666664</value>
@@ -446,7 +452,7 @@
 			<value>Green</value>
 		</property>
 		<property name="start">
-			<value>28.888888888888889</value>
+			<value>22</value>
 		</property>
 		<property name="length">
 			<value>71.107062499999998</value>
@@ -482,7 +488,7 @@
 			<value>Green</value>
 		</property>
 		<property name="start">
-			<value>28.888888888888889</value>
+			<value>22</value>
 		</property>
 		<property name="length">
 			<value>71.107062499999998</value>
@@ -518,7 +524,7 @@
 			<value>Red Light 1</value>
 		</property>
 		<property name="start">
-			<value>28.888888888888889</value>
+			<value>22</value>
 		</property>
 		<property name="length">
 			<value>35.555562500000001</value>
@@ -532,7 +538,7 @@
 			<value>Red Light 1</value>
 		</property>
 		<property name="start">
-			<value>64.444451388888893</value>
+			<value>57.555562500000008</value>
 		</property>
 		<property name="length">
 			<value>35.555562500000001</value>
@@ -568,7 +574,7 @@
 			<value>Red Light 1</value>
 		</property>
 		<property name="start">
-			<value>28.888888888888889</value>
+			<value>22</value>
 		</property>
 		<property name="length">
 			<value>35.555562500000001</value>
@@ -582,7 +588,7 @@
 			<value>Red Light 1</value>
 		</property>
 		<property name="start">
-			<value>64.444451388888893</value>
+			<value>57.555562500000008</value>
 		</property>
 		<property name="length">
 			<value>35.555562500000001</value>
@@ -618,7 +624,7 @@
 			<value>Red Light 1</value>
 		</property>
 		<property name="start">
-			<value>28.888888888888889</value>
+			<value>22</value>
 		</property>
 		<property name="length">
 			<value>35.555562500000001</value>
@@ -632,7 +638,7 @@
 			<value>Red Light 1</value>
 		</property>
 		<property name="start">
-			<value>64.444451388888893</value>
+			<value>57.555562500000008</value>
 		</property>
 		<property name="length">
 			<value>35.555562500000001</value>
@@ -791,7 +797,7 @@
 	</object>
 	<object class="LoopRegion" id="{7d07bedd-4a4e-4d95-8284-7f937cd56665}">
 		<property name="position">
-			<value>28.888888888888889</value>
+			<value>22</value>
 		</property>
 		<property name="length">
 			<value>71.107062500000012</value>
@@ -833,7 +839,7 @@
 	</object>
 	<object class="NamedMarker" id="{f47a1fa6-df11-4753-ab35-362796a6a759}">
 		<property name="position">
-			<value>28.888888888888889</value>
+			<value>22</value>
 		</property>
 		<property name="name">
 			<value>EXP/COMB</value>
@@ -857,6 +863,9 @@
 		</relationship>
 		<relationship name="destination">
 			<destination>{f47a1fa6-df11-4753-ab35-362796a6a759}</destination>
+		</relationship>
+		<relationship name="triggerConditions">
+			<destination>{58036e93-4552-4148-8454-2da85fb58b84}</destination>
 		</relationship>
 	</object>
 	<object class="Automator" id="{8ed7b37f-cfd3-411f-976d-c52030f45bb5}">
@@ -1047,6 +1056,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{22e731e9-20c3-490d-8cb3-29fb90d646be}" />
+	<object class="ParameterCondition" id="{58036e93-4552-4148-8454-2da85fb58b84}">
+		<property name="minimum">
+			<value>0</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{a0f6ca83-d8e8-4dd6-8301-9e4cb685a202}</destination>
+		</relationship>
+	</object>
 	<object class="AutomationCurve" id="{ba4680cd-161a-46e4-8a36-61478512b70d}">
 		<relationship name="parameter">
 			<destination>{bfe65645-0f5d-4d8e-9004-d6c1319d72ab}</destination>
